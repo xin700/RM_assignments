@@ -69,19 +69,19 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/src/func.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/func.cpp.o: /Users/xin/HustFiles/狼牙战队/RM_assignments/SecondWeekAssignments/src/func.cpp
-CMakeFiles/main.dir/src/func.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/xin/HustFiles/狼牙战队/RM_assignments/SecondWeekAssignments/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/func.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/func.cpp.o -MF CMakeFiles/main.dir/src/func.cpp.o.d -o CMakeFiles/main.dir/src/func.cpp.o -c /Users/xin/HustFiles/狼牙战队/RM_assignments/SecondWeekAssignments/src/func.cpp
+CMakeFiles/main.dir/src/ach_func.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/ach_func.cpp.o: /Users/xin/HustFiles/狼牙战队/RM_assignments/SecondWeekAssignments/src/ach_func.cpp
+CMakeFiles/main.dir/src/ach_func.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/xin/HustFiles/狼牙战队/RM_assignments/SecondWeekAssignments/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/ach_func.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ach_func.cpp.o -MF CMakeFiles/main.dir/src/ach_func.cpp.o.d -o CMakeFiles/main.dir/src/ach_func.cpp.o -c /Users/xin/HustFiles/狼牙战队/RM_assignments/SecondWeekAssignments/src/ach_func.cpp
 
-CMakeFiles/main.dir/src/func.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/func.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xin/HustFiles/狼牙战队/RM_assignments/SecondWeekAssignments/src/func.cpp > CMakeFiles/main.dir/src/func.cpp.i
+CMakeFiles/main.dir/src/ach_func.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/ach_func.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xin/HustFiles/狼牙战队/RM_assignments/SecondWeekAssignments/src/ach_func.cpp > CMakeFiles/main.dir/src/ach_func.cpp.i
 
-CMakeFiles/main.dir/src/func.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/func.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xin/HustFiles/狼牙战队/RM_assignments/SecondWeekAssignments/src/func.cpp -o CMakeFiles/main.dir/src/func.cpp.s
+CMakeFiles/main.dir/src/ach_func.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/ach_func.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xin/HustFiles/狼牙战队/RM_assignments/SecondWeekAssignments/src/ach_func.cpp -o CMakeFiles/main.dir/src/ach_func.cpp.s
 
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.cpp.o: /Users/xin/HustFiles/狼牙战队/RM_assignments/SecondWeekAssignments/src/main.cpp
@@ -99,13 +99,13 @@ CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/src/func.cpp.o" \
+"CMakeFiles/main.dir/src/ach_func.cpp.o" \
 "CMakeFiles/main.dir/src/main.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/src/func.cpp.o
+main: CMakeFiles/main.dir/src/ach_func.cpp.o
 main: CMakeFiles/main.dir/src/main.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: /opt/homebrew/lib/libopencv_gapi.4.8.1.dylib

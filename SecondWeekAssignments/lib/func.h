@@ -5,7 +5,8 @@
 #include <iostream>
 using namespace cv;
 using namespace std;
-void bgr2hsv(Mat &InputImage,Mat &OutputImage);
+void bgr2hsv (Mat &InputImage,Mat &OutputImage);
+void bgr2gray(Mat &InputImage,Mat &OutputImage);
 bool equal(float a,float b);
 
 #endif

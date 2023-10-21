@@ -13,14 +13,16 @@ signed main()
     Mat BGRImage = imread("../img/test.jpg");
 
     Mat HSVImage = Mat::zeros(BGRImage.rows,BGRImage.cols,CV_32FC3);
+    Mat GREAYImage = Mat::zeros(BGRImage.rows,BGRImage.cols,CV_8UC1);
     // imshow("original",BGRImage);
 
     // cvtColor(BGRImage,HSVImage,COLOR_BGR2HSV);
-
     // cvtColor(HSVImage,BGRImage,COLOR_HSV2BGR);
 
-    bgr2hsv(BGRImage,HSVImage);
-    imshow("HSV",HSVImage);
+    // bgr2hsv(BGRImage,HSVImage);
+    bgr2gray(BGRImage,GREAYImage);
+    // imshow("HSV",HSVImage);
+    imshow("gray",GREAYImage);
     // imshow("BGR",BGRImage);
     waitKey(0);
     

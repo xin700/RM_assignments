@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-src/func.o: src/func.cpp.o
-.PHONY : src/func.o
+src/ach_func.o: src/ach_func.cpp.o
+.PHONY : src/ach_func.o
 
 # target to build an object file
-src/func.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/func.cpp.o
-.PHONY : src/func.cpp.o
+src/ach_func.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ach_func.cpp.o
+.PHONY : src/ach_func.cpp.o
 
-src/func.i: src/func.cpp.i
-.PHONY : src/func.i
+src/ach_func.i: src/ach_func.cpp.i
+.PHONY : src/ach_func.i
 
 # target to preprocess a source file
-src/func.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/func.cpp.i
-.PHONY : src/func.cpp.i
+src/ach_func.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ach_func.cpp.i
+.PHONY : src/ach_func.cpp.i
 
-src/func.s: src/func.cpp.s
-.PHONY : src/func.s
+src/ach_func.s: src/ach_func.cpp.s
+.PHONY : src/ach_func.s
 
 # target to generate assembly for a file
-src/func.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/func.cpp.s
-.PHONY : src/func.cpp.s
+src/ach_func.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ach_func.cpp.s
+.PHONY : src/ach_func.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -186,9 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... src/func.o"
-	@echo "... src/func.i"
-	@echo "... src/func.s"
+	@echo "... src/ach_func.o"
+	@echo "... src/ach_func.i"
+	@echo "... src/ach_func.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

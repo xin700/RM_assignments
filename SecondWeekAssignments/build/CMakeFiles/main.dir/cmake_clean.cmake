@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/src/func.cpp.o"
-  "CMakeFiles/main.dir/src/func.cpp.o.d"
+  "CMakeFiles/main.dir/src/ach_func.cpp.o"
+  "CMakeFiles/main.dir/src/ach_func.cpp.o.d"
   "CMakeFiles/main.dir/src/main.cpp.o"
   "CMakeFiles/main.dir/src/main.cpp.o.d"
   "main"

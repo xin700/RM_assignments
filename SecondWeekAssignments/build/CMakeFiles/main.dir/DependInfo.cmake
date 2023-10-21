@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/xin/HustFiles/狼牙战队/RM_assignments/SecondWeekAssignments/src/func.cpp" "CMakeFiles/main.dir/src/func.cpp.o" "gcc" "CMakeFiles/main.dir/src/func.cpp.o.d"
+  "/Users/xin/HustFiles/狼牙战队/RM_assignments/SecondWeekAssignments/src/ach_func.cpp" "CMakeFiles/main.dir/src/ach_func.cpp.o" "gcc" "CMakeFiles/main.dir/src/ach_func.cpp.o.d"
   "/Users/xin/HustFiles/狼牙战队/RM_assignments/SecondWeekAssignments/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/main.cpp.o.d"
   )
 
