@@ -1,0 +1,9 @@
+{
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "array": "cpp",
+        "core": "cpp",
+        "dense": "cpp",
+        "geometry": "cpp"
+    }
+}

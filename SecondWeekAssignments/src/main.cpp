@@ -9,7 +9,6 @@ signed main()
 {
 
     // Mat BGRImage = imread("../img/3.png");
-
     Mat BGRImage = imread("../img/2.jpeg");
 
     if(BGRImage.empty())

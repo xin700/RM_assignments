@@ -1,3 +1,0 @@
-/Users/xin/HustFiles/狼牙战队/RM_assignments/SecondWeekAssignments/build/CMakeFiles/main.dir
-/Users/xin/HustFiles/狼牙战队/RM_assignments/SecondWeekAssignments/build/CMakeFiles/edit_cache.dir
-/Users/xin/HustFiles/狼牙战队/RM_assignments/SecondWeekAssignments/build/CMakeFiles/rebuild_cache.dir
