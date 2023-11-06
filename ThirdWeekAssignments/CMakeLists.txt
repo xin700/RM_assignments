@@ -9,7 +9,7 @@ add_compile_options(-std=c++17 -O2)
 # include_directories(/opt/homebrew/Cellar/eigen/3.4.0_1/include)
 # include_directories(/opt/homebrew/Cellar/vtk/9.2.6_5/include/)
 find_package(OpenCV REQUIRED)
-include_directories( "/usr/include/opencv4")
+# include_directories( "/usr/include/opencv4")
 include_directories( "/usr/include/eigen3" )
 
 aux_source_directory(src SOURCE_FILES)

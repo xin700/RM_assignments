@@ -4,6 +4,7 @@
         "array": "cpp",
         "core": "cpp",
         "dense": "cpp",
-        "geometry": "cpp"
+        "geometry": "cpp",
+        "specialfunctions": "cpp"
     }
 }
