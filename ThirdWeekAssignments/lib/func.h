@@ -2,7 +2,7 @@
 #define FUNC_H
 
 #include <iostream>
-#include <Eigen/Dense>
+#include <eigen3/Eigen/Dense>
 #include <opencv2/viz.hpp>
 #include <opencv2/calib3d/calib3d.hpp>
 #include <opencv2/opencv.hpp>
